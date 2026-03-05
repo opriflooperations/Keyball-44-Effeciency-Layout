@@ -64,10 +64,10 @@
         default_layer {
             label = "CMK-DH+";
             bindings = <
-&lt 4 LC(F)    &kp Q             &hm LC(W) W           &hm LC(F) F  &hm LC(P) P  &kp B                            &kp J            &hm LC(L) L  &hm LC(U) U  &hm LC(Y) Y  &mt K_REDO K_UNDO  &lt 3 PRINTSCREEN
-&lt 0 ESCAPE   &hm LC(A) A       &hm LC(R) R           &hm LC(S) S  &hm LC(T) T  &mt CAPSLOCK G                   &mt LG(TAB) M    &hm LC(N) N  &hm LC(E) E  &hm LC(I) I  &hm LC(O) O        &lt 5 DEL
-&kp LC(LS(D))  &hm LC(Z) Z       &hm LC(X) X           &hm LC(C) C  &hm LC(D) D  &mt LG(V) V                      &kp K            &hm LC(H) H  &kp COMMA    &kp PERIOD   &kp SLASH          &kp TAB
-&kp LALT       &kp LEFT_CONTROL  &mt LEFT_SHIFT LC(C)  &lt 5 SPACE  &lt 6 LC(V)                      &lt 2 ENTER  &lt 1 BACKSPACE                                                            &kp LEFT_WIN
+&lt 4 LC(F)    &mt CLCK Q        &hm LC(W) W           &hm LC(F) F  &hm LC(P) P  &mt LC(B) B                   &mt LC(J) J      &hm LC(L) L  &hm LC(U) U  &hm LC(Y) Y  &mt K_REDO K_UNDO  &lt 3 PRINTSCREEN
+&lt 0 ESCAPE   &hm LC(A) A       &hm LC(R) R           &hm LC(S) S  &hm LC(T) T  &mt LC(G) G                   &mt LG(TAB) M    &hm LC(N) N  &hm LC(E) E  &hm LC(I) I  &hm LC(O) O        &lt 5 DEL
+&kp LC(LS(D))  &hm LC(Z) Z       &hm LC(X) X           &hm LC(C) C  &hm LC(D) D  &mt LG(V) V                   &mt LC(K) K      &hm LC(H) H  &kp COMMA    &kp PERIOD   &kp SLASH          &kp TAB
+&kp LALT       &kp LEFT_CONTROL  &mt LEFT_SHIFT LC(C)  &lt 5 SPACE  &lt 6 LC(V)                   &lt 2 ENTER  &lt 1 BACKSPACE                                                            &kp LEFT_WIN
             >;
         };
 
@@ -104,10 +104,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&none   &kp N1          &kp N2     &kp N3        &kp N4     &kp N5                     &kp N6         &kp N7     &kp N8        &kp N9     &kp N0     &none
-&sl 5   &mkp MCLK       &mkp RCLK  &lt 5 SPACE   &mkp LCLK  &kp PAGE_UP                &kp PAGE_UP    &mkp LCLK  &lt 5 SPACE   &mkp RCLK  &mkp MCLK  &kp PRINTSCREEN
+&none   &kp N1          &kp N2     &kp N3        &kp N4     &kp N5                     &kp N6         &kp N7     &kp N8        &kp N9     &kp N0     &kp PRINTSCREEN
+&none   &mkp MCLK       &mkp RCLK  &lt 5 SPACE   &mkp LCLK  &kp PAGE_UP                &kp PAGE_UP    &mkp LCLK  &lt 5 SPACE   &mkp RCLK  &mkp MCLK  &none
 &none   &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT  &kp PAGE_DOWN              &kp PAGE_DOWN  &kp LEFT   &kp UP_ARROW  &kp DOWN   &kp RIGHT  &none
-&trans  &trans          &trans     &trans        &trans                        &trans  &none                                                         &none
+&trans  &trans          &trans     &trans        &trans                        &trans  &none                                                         &kp K_POWER
             >;
         };
 
