@@ -43,8 +43,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: Ctl+V, h: SCROLL}
   - {t: '$$mdi:keyboard-return$$', h: SNIPE}
+  - RGUI
   - {t: '$$mdi:backspace$$', h: SYM}
-  - RWIN
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   NUM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -135,8 +135,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   FUN:
   - $$mdi:brightness-5$$
