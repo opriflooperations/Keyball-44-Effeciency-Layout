@@ -16,13 +16,13 @@
 &lt {
     tapping-term-ms = <200>;
     flavor = "balanced";
-    quick-tap-ms = <175>;
+    quick-tap-ms = <0>;
 };
 
 &mt {
     tapping-term-ms = <200>;
     flavor = "balanced";
-    quick-tap-ms = <175>;
+    quick-tap-ms = <0>;
 };
 
 &caps_word { continue-list = <UNDERSCORE MINUS>; };
@@ -49,9 +49,9 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
-            quick-tap-ms = <175>;
-            flavor = "balanced";
+            tapping-term-ms = <300>;
+            quick-tap-ms = <0>;
+            flavor = "hold-preferred";
             bindings = <&kp>, <&kp>;
         };
 
@@ -59,9 +59,9 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOLD_WORD";
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
-            quick-tap-ms = <175>;
-            flavor = "balanced";
+            tapping-term-ms = <300>;
+            quick-tap-ms = <0>;
+            flavor = "hold-preferred";
             bindings = <&caps_word>, <&kp>;
         };
     };
