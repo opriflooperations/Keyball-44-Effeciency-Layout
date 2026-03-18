@@ -70,13 +70,15 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        hm: homerow_mods {
+hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
-            quick-tap-ms = <0>;
-            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
+            // This is the magic filter
+            require-prior-idle-ms = <125>; 
+            flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
     };
