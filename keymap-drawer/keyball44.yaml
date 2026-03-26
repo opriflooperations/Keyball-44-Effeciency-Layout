@@ -318,3 +318,7 @@ layers:
 combos:
 - p: [20, 21]
   k: Gui+$$mdi:keyboard-tab$$
+- p: [21, 22]
+  k: Alt+$$mdi:arrow-left-bold$$
+- p: [21, 22, 23]
+  k: Alt+$$mdi:arrow-right-bold$$
