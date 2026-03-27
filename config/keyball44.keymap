@@ -108,6 +108,36 @@
             bindings = <&kp LC(LS(V))>;
             key-positions = <16 15 14>;
         };
+
+        Refresh_Page {
+            bindings = <&kp LC(R)>;
+            key-positions = <19 20 21 22>;
+        };
+
+        Snipe_Layer_Lock {
+            bindings = <&sl 6>;
+            key-positions = <19 22>;
+        };
+
+        Window_Right {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <31 32 33>;
+        };
+
+        Window_Left {
+            bindings = <&kp LA(LS(TAB))>;
+            key-positions = <7 8 9>;
+        };
+
+        Tab_Right {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <31 32>;
+        };
+
+        Tab_Left {
+            bindings = <&kp LC(LS(TAB))>;
+            key-positions = <7 8>;
+        };
     };
 
     behaviors {
@@ -158,10 +188,10 @@
         default_layer {
             label = "CMK-DH+";
             bindings = <
-&mt LC(LS(TAB)) LC(LG(LEFT))  &kp Q            &kp W            &kp F        &kp P        &kp B                    &kp J            &kp L        &kp U        &kp Y       &kp TAB     &mt LC(TAB) LC(LG(RIGHT))
-&lt 6 ESCAPE                  &hm LGUI A       &hm LALT R       &hm LSHFT S  &hm LCTRL T  &kp G                    &kp M            &hm RCTRL N  &hm RSHFT E  &hm RALT I  &hm RGUI O  &lt 5 ENTER
-&lt 3 PRINTSCREEN             &kp Z            &kp X            &kp C        &kp D        &kp V                    &kp K            &kp H        &kp COMMA    &kp DOT     &kp SLASH   &lt 4 LC(F)
-&mt LC(LS(S)) LS(LC(D))       &mt LC(Y) LC(Z)  &mt LC(X) LC(C)  &lt 5 SPACE  &none                   &lt 2 DELETE  &lt 1 BACKSPACE                                                    &mt LS(LC(S)) LC(LS(D))
+&mt LC(LS(TAB)) LC(LG(LEFT))  &kp Q            &kp W        &kp F        &kp P        &kp B                             &kp J                        &kp L        &kp U        &kp Y       &kp TAB                &mt LC(TAB) LC(LG(RIGHT))
+&lt 6 ESCAPE                  &hm LGUI A       &hm LALT R   &hm LSHFT S  &hm LCTRL T  &kp G                             &kp M                        &hm RCTRL N  &hm RSHFT E  &hm RALT I  &hm RGUI O             &lt 5 ENTER
+&lt 3 PRINTSCREEN             &kp Z            &kp X        &kp C        &kp D        &kp V                             &kp K                        &kp H        &kp COMMA    &kp PERIOD  &mt KP_SLASH QUESTION  &lt 4 LC(F)
+&mt LC(LS(S)) LS(LC(D))       &mt LC(Y) LC(Z)  &lt 2 LC(C)  &lt 1 SPACE  &lt 5 LC(X)             &mt LC(DELETE) DELETE  &mt LC(BACKSPACE) BACKSPACE                                                               &kp SEMICOLON
             >;
         };
 
@@ -198,10 +228,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans     &trans         &trans     &trans        &trans     &trans                    &trans        &trans     &trans        &trans     &trans         &trans
-&kp LC(R)  &kp LA(RIGHT)  &mkp RCLK  &mkp MCLK     &mkp LCLK  &kp LA(LEFT)              &kp LA(LEFT)  &mkp LCLK  &mkp MCLK     &mkp RCLK  &kp LA(RIGHT)  &kp LC(R)
-&trans     &kp LEFT       &kp DOWN   &kp UP_ARROW  &kp RIGHT  &trans                    &trans        &kp LEFT   &kp UP_ARROW  &kp DOWN   &kp RIGHT      &trans
-&trans     &trans         &trans     &trans        &trans                       &trans  &trans                                                           &trans
+&trans  &trans     &trans     &trans        &trans     &trans              &trans  &trans     &trans        &trans     &trans     &trans
+&trans  &mkp MCLK  &mkp RCLK  &mo 5         &mkp LCLK  &trans              &trans  &mkp LCLK  &mo 5         &mkp RCLK  &mkp MCLK  &trans
+&trans  &kp LEFT   &kp DOWN   &kp UP_ARROW  &kp RIGHT  &trans              &trans  &kp LEFT   &kp UP_ARROW  &kp DOWN   &kp RIGHT  &trans
+&trans  &trans     &trans     &trans        &trans                 &trans  &trans                                                 &trans
             >;
         };
 
