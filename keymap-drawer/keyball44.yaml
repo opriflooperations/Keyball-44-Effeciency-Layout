@@ -35,7 +35,7 @@ layers:
   - H
   - {t: ',', s: <}
   - .
-  - {t: '?', h: KP SLASH}
+  - {t: '?', h: KP DIVIDE}
   - {t: Ctl+F, h: MOUSE}
   - {t: Sft+Ctl+D, h: Ctl+Sft+S}
   - {t: Ctl+Z, h: Ctl+Y}
