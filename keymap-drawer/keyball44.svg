@@ -702,6 +702,20 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="663" y="82" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
+<g class="combo combopos-31">
+<rect rx="6" ry="6" x="742" y="71" width="28" height="26" class="combo"/>
+<text x="756" y="84" class="combo tap">
+<tspan x="756" dy="-0.6em">CMK-DH</tspan><tspan x="756" dy="1.2em">+</tspan>
+</text>
+<text x="756" y="95" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-32">
+<rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
+<text x="84" y="84" class="combo tap">
+<tspan x="84" dy="-0.6em">CMK-DH</tspan><tspan x="84" dy="1.2em">+</tspan>
+</text>
+<text x="84" y="95" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 370)" class="layer-NUM">
@@ -1096,6 +1110,20 @@ rect.held, rect.combo.held {
 <g class="combo combopos-30">
 <rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="663" y="82" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-31">
+<rect rx="6" ry="6" x="742" y="71" width="28" height="26" class="combo"/>
+<text x="756" y="84" class="combo tap">
+<tspan x="756" dy="-0.6em">CMK-DH</tspan><tspan x="756" dy="1.2em">+</tspan>
+</text>
+<text x="756" y="95" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-32">
+<rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
+<text x="84" y="84" class="combo tap">
+<tspan x="84" dy="-0.6em">CMK-DH</tspan><tspan x="84" dy="1.2em">+</tspan>
+</text>
+<text x="84" y="95" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1499,6 +1527,20 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="663" y="82" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
+<g class="combo combopos-31">
+<rect rx="6" ry="6" x="742" y="71" width="28" height="26" class="combo"/>
+<text x="756" y="84" class="combo tap">
+<tspan x="756" dy="-0.6em">CMK-DH</tspan><tspan x="756" dy="1.2em">+</tspan>
+</text>
+<text x="756" y="95" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-32">
+<rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
+<text x="84" y="84" class="combo tap">
+<tspan x="84" dy="-0.6em">CMK-DH</tspan><tspan x="84" dy="1.2em">+</tspan>
+</text>
+<text x="84" y="95" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1110)" class="layer-FUN">
@@ -1893,6 +1935,20 @@ rect.held, rect.combo.held {
 <g class="combo combopos-30">
 <rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="663" y="82" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-31">
+<rect rx="6" ry="6" x="742" y="71" width="28" height="26" class="combo"/>
+<text x="756" y="84" class="combo tap">
+<tspan x="756" dy="-0.6em">CMK-DH</tspan><tspan x="756" dy="1.2em">+</tspan>
+</text>
+<text x="756" y="95" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-32">
+<rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
+<text x="84" y="84" class="combo tap">
+<tspan x="84" dy="-0.6em">CMK-DH</tspan><tspan x="84" dy="1.2em">+</tspan>
+</text>
+<text x="84" y="95" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -2290,6 +2346,20 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="663" y="82" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
+<g class="combo combopos-31">
+<rect rx="6" ry="6" x="742" y="71" width="28" height="26" class="combo"/>
+<text x="756" y="84" class="combo tap">
+<tspan x="756" dy="-0.6em">CMK-DH</tspan><tspan x="756" dy="1.2em">+</tspan>
+</text>
+<text x="756" y="95" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-32">
+<rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
+<text x="84" y="84" class="combo tap">
+<tspan x="84" dy="-0.6em">CMK-DH</tspan><tspan x="84" dy="1.2em">+</tspan>
+</text>
+<text x="84" y="95" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1850)" class="layer-SCROLL">
@@ -2680,6 +2750,20 @@ rect.held, rect.combo.held {
 <g class="combo combopos-30">
 <rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="663" y="82" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-31">
+<rect rx="6" ry="6" x="742" y="71" width="28" height="26" class="combo"/>
+<text x="756" y="84" class="combo tap">
+<tspan x="756" dy="-0.6em">CMK-DH</tspan><tspan x="756" dy="1.2em">+</tspan>
+</text>
+<text x="756" y="95" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-32">
+<rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
+<text x="84" y="84" class="combo tap">
+<tspan x="84" dy="-0.6em">CMK-DH</tspan><tspan x="84" dy="1.2em">+</tspan>
+</text>
+<text x="84" y="95" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -3094,6 +3178,20 @@ rect.held, rect.combo.held {
 <g class="combo combopos-30">
 <rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="663" y="82" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-31">
+<rect rx="6" ry="6" x="742" y="71" width="28" height="26" class="combo"/>
+<text x="756" y="84" class="combo tap">
+<tspan x="756" dy="-0.6em">CMK-DH</tspan><tspan x="756" dy="1.2em">+</tspan>
+</text>
+<text x="756" y="95" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-32">
+<rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
+<text x="84" y="84" class="combo tap">
+<tspan x="84" dy="-0.6em">CMK-DH</tspan><tspan x="84" dy="1.2em">+</tspan>
+</text>
+<text x="84" y="95" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
