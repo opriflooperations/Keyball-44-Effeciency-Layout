@@ -191,12 +191,12 @@
 
         Layer_Reset_RH {
             bindings = <&to 0>;
-            key-positions = <10 22>;
+            key-positions = <22 21 20>;
         };
 
         Layer_Reset_LH {
             bindings = <&to 0>;
-            key-positions = <1 13>;
+            key-positions = <13 14 15>;
         };
     };
 
