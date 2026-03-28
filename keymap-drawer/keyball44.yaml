@@ -11,9 +11,9 @@ layers:
   - L
   - U
   - Y
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-caps$$'}
   - {t: 'Ctl+Gui+$$mdi:arrow-right-bold$$', h: 'Ctl+$$mdi:keyboard-tab$$'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:keyboard-return$$'}
+  - '"'
   - A
   - {t: R, h: SNIPE}
   - {t: S, h: SCROLL}
@@ -24,7 +24,7 @@ layers:
   - {t: E, h: SCROLL}
   - {t: I, h: SNIPE}
   - O
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:keyboard-esc$$'}
+  - ':'
   - {t: PRINTSCREEN, h: FUN}
   - Z
   - X
@@ -41,10 +41,10 @@ layers:
   - {t: Ctl+Z, h: Ctl+Y}
   - {t: Ctl+C, h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
-  - {t: Ctl+X, h: SCROLL}
+  - {t: '$$mdi:keyboard-esc$$', h: SCROLL}
   - {t: '$$mdi:backspace-reverse-outline$$', h: 'Ctl+$$mdi:backspace-reverse-outline$$'}
   - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
-  - {t: ;, s: ':'}
+  - $$mdi:alpha-w-box$$
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -316,11 +316,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [20, 21]
-  k: Gui+$$mdi:keyboard-tab$$
-- p: [20, 19]
+- p: [21, 33]
+  k: Ctl+R
+- p: [19, 31]
   k: Alt+$$mdi:arrow-left-bold$$
-- p: [21, 22]
+- p: [20, 32]
   k: Alt+$$mdi:arrow-right-bold$$
 - p: [16, 19]
   k: {t: NUM, h: toggle}
@@ -346,8 +346,8 @@ combos:
   k: Ctl+V
 - p: [16, 15, 14]
   k: Ctl+Sft+V
-- p: [42, 21]
-  k: Ctl+R
+- p: [17, 16]
+  k: Ctl+X
 - p: [19, 22]
   k: {t: SNIPE, h: toggle}
 - p: [31, 32, 33]
@@ -374,3 +374,7 @@ combos:
   k: $$mdi:apple-keyboard-option$$
 - p: [17, 5]
   k: $$mdi:apple-keyboard-command$$
+- p: [19, 20]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [21, 20]
+  k: Gui+$$mdi:keyboard-tab$$
