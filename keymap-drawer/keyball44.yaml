@@ -358,3 +358,5 @@ combos:
   k: Ctl+$$mdi:keyboard-tab$$
 - p: [7, 8]
   k: Ctl+Sft+$$mdi:keyboard-tab$$
+- p: [9, 10]
+  k: $$mdi:apple-keyboard-shift$$
