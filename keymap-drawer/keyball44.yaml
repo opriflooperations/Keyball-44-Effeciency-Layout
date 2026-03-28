@@ -13,18 +13,18 @@ layers:
   - Y
   - $$mdi:keyboard-tab$$
   - {t: 'Ctl+Gui+$$mdi:arrow-right-bold$$', h: 'Ctl+$$mdi:keyboard-tab$$'}
-  - {t: '$$mdi:keyboard-esc$$', h: SNIPE}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:keyboard-return$$'}
   - A
-  - R
-  - S
+  - {t: R, h: SNIPE}
+  - {t: S, h: SCROLL}
   - T
   - G
   - M
   - N
-  - E
-  - I
+  - {t: E, h: SCROLL}
+  - {t: I, h: SNIPE}
   - O
-  - {t: '$$mdi:keyboard-return$$', h: SCROLL}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:keyboard-esc$$'}
   - {t: PRINTSCREEN, h: FUN}
   - Z
   - X
@@ -241,15 +241,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -283,16 +283,16 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:mouse-right-click-outline$$', type: held}
   - {t: '$$mdi:keyboard-space$$', h: SCROLL}
   - $$mdi:mouse-left-click-outline$$
   - PgUp
   - PgUp
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-space$$', h: SCROLL}
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:mouse-right-click-outline$$', type: held alternate}
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
