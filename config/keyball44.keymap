@@ -188,6 +188,16 @@
             bindings = <&kp LG(TAB)>;
             key-positions = <21 20>;
         };
+
+        Layer_Reset_RH {
+            bindings = <&to 0>;
+            key-positions = <10 22>;
+        };
+
+        Layer_Reset_LH {
+            bindings = <&to 0>;
+            key-positions = <1 13>;
+        };
     };
 
     behaviors {
