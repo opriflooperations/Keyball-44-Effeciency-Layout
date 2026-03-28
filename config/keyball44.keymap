@@ -139,9 +139,44 @@
             key-positions = <7 8>;
         };
 
-        SHIFT_TEST {
+        Shift_Homerow_Mod_RH {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <7 19>;
+        };
+
+        Ctrl_Homerow_Mod_RH {
+            bindings = <&kp RCTRL>;
+            key-positions = <20 8>;
+        };
+
+        Alt_Homerow_Mod_RH {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <21 9>;
+        };
+
+        Windows_Homerow_Mod_RH {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <6 18>;
+        };
+
+        Shift_Homerow_Mod_LH {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <9 10>;
+            key-positions = <16 4>;
+        };
+
+        Ctrl_Homerow_Mod_LH {
+            bindings = <&kp LCTRL>;
+            key-positions = <15 3>;
+        };
+
+        Alt_Homerow_Mod_LH {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <14 2>;
+        };
+
+        Windows_Homerow_Mod_LH {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <17 5>;
         };
     };
 
@@ -193,10 +228,10 @@
         default_layer {
             label = "CMK-DH+";
             bindings = <
-&mt LC(LS(TAB)) LC(LG(LEFT))  &kp Q            &kp W        &kp F        &kp P        &kp B                             &kp J                        &kp L        &kp U        &kp Y       &kp TAB                 &mt LC(TAB) LC(LG(RIGHT))
-&lt 6 ESCAPE                  &hm LGUI A       &hm LALT R   &hm LSHFT S  &hm LCTRL T  &kp G                             &kp M                        &hm RCTRL N  &hm RSHFT E  &hm RALT I  &hm RGUI O              &lt 5 ENTER
-&lt 3 PRINTSCREEN             &kp Z            &kp X        &kp C        &kp D        &kp V                             &kp K                        &kp H        &kp COMMA    &kp PERIOD  &mt KP_DIVIDE QUESTION  &lt 4 LC(F)
-&mt LC(LS(S)) LS(LC(D))       &mt LC(Y) LC(Z)  &lt 2 LC(C)  &lt 1 SPACE  &lt 5 LC(X)             &mt LC(DELETE) DELETE  &mt LC(BACKSPACE) BACKSPACE                                                                &kp SEMICOLON
+&mt LC(LS(TAB)) LC(LG(LEFT))  &kp Q            &kp W        &kp F        &kp P        &kp B                             &kp J                        &kp L  &kp U      &kp Y       &kp TAB                 &mt LC(TAB) LC(LG(RIGHT))
+&lt 6 ESCAPE                  &kp A            &kp R        &kp S        &kp T        &kp G                             &kp M                        &kp N  &kp E      &kp I       &kp O                   &lt 5 ENTER
+&lt 3 PRINTSCREEN             &kp Z            &kp X        &kp C        &kp D        &kp V                             &kp K                        &kp H  &kp COMMA  &kp PERIOD  &mt KP_DIVIDE QUESTION  &lt 4 LC(F)
+&mt LC(LS(S)) LS(LC(D))       &mt LC(Y) LC(Z)  &lt 2 LC(C)  &lt 1 SPACE  &lt 5 LC(X)             &mt LC(DELETE) DELETE  &mt LC(BACKSPACE) BACKSPACE                                                        &kp SEMICOLON
             >;
         };
 
