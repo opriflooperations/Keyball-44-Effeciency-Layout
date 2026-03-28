@@ -39,13 +39,13 @@
 
         Page_Backwards {
             timeout-ms = <50>;
-            key-positions = <20 19>; // N and E keys
+            key-positions = <19 31>; // N and E keys
             bindings = <&kp LA(LEFT)>;
         };
 
         Page_Forward {
             timeout-ms = <50>;
-            key-positions = <21 22>; // N, E, and I keys
+            key-positions = <21 33>; // N, E, and I keys
             bindings = <&kp LA(RIGHT)>;
         };
 
@@ -111,7 +111,7 @@
 
         Refresh_Page {
             bindings = <&kp LC(R)>;
-            key-positions = <42 21>;
+            key-positions = <21 33>;
         };
 
         Snipe_Layer_Lock {
@@ -177,6 +177,11 @@
         Windows_Homerow_Mod_LH {
             bindings = <&kp LEFT_GUI>;
             key-positions = <17 5>;
+        };
+
+        Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <19 20>;
         };
     };
 
