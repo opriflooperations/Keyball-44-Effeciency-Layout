@@ -140,9 +140,10 @@
             key-positions = <7 8>;
         };
 
-        BROKEN_Shift_Homerow_Mod_RH {
-            bindings = <&kp LEFT_SHIFT>;
+        Shift_Homerow_Mod_RH {
+            bindings = <&kp RSHIFT>;
             key-positions = <19 7>;
+            timeout-ms = <500>;
         };
 
         Ctrl_Homerow_Mod_RH {
