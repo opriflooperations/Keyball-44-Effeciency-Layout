@@ -398,3 +398,5 @@ combos:
   k: '&ing_Text_Macro'
 - p: [13, 25]
   k: '&and_Text_Macro'
+- p: [7, 6]
+  k: '&Tripple_Click_Macro'
