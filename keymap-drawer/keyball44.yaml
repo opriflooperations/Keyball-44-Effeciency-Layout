@@ -374,11 +374,11 @@ combos:
   k: $$mdi:apple-keyboard-option$$
 - p: [17, 5]
   k: $$mdi:apple-keyboard-command$$
-- p: [19, 20]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [21, 20]
   k: Gui+$$mdi:keyboard-tab$$
 - p: [22, 21]
   k: {t: CMK-DH+, h: toggle}
 - p: [13, 14]
   k: {t: CMK-DH+, h: toggle}
+- p: [42, 19]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
