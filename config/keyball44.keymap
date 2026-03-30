@@ -234,6 +234,11 @@
             bindings = <&ing_Text_Macro>;
             key-positions = <14 26>;
         };
+
+        and_Text_Fill_Macro {
+            bindings = <&and_Text_Macro>;
+            key-positions = <13 25>;
+        };
     };
 
     behaviors {
