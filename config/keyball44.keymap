@@ -239,6 +239,11 @@
             bindings = <&and_Text_Macro>;
             key-positions = <13 25>;
         };
+
+        Tripple_Click_Macro {
+            bindings = <&Tripple_Click_Macro>;
+            key-positions = <7 6>;
+        };
     };
 
     behaviors {
@@ -324,6 +329,13 @@
             #binding-cells = <0>;
             bindings = <&kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
             label = "ATGMAILDOTCOM_TEXT_MACRO";
+        };
+
+        Tripple_Click_Macro: Tripple_Click_Macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp LCLK &mkp LCLK &mkp LCLK>;
+            label = "TRIPPLE_CLICK_MACRO";
         };
     };
 
