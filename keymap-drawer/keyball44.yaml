@@ -24,7 +24,7 @@ layers:
   - {t: E, h: SCROLL}
   - {t: I, h: SNIPE}
   - O
-  - ':'
+  - {t: ':', h: SCROLL}
   - {t: PRINTSCREEN, h: FUN}
   - Z
   - X
@@ -249,7 +249,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
