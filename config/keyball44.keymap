@@ -57,7 +57,7 @@
 
         Scroll_Layer_Lock {
             bindings = <&tog 5>;
-            key-positions = <41 42>;
+            key-positions = <10 22>;
         };
 
         Symbol_Layer_Lock {
@@ -117,7 +117,7 @@
 
         Snipe_Layer_Lock {
             bindings = <&tog 6>;
-            key-positions = <22 10>;
+            key-positions = <22 23>;
         };
 
         Window_Right {
@@ -242,7 +242,12 @@
 
         Tripple_Click_Macro {
             bindings = <&Tripple_Click_Macro>;
-            key-positions = <7 6>;
+            key-positions = <18 19>;
+        };
+
+        Doubble_Click {
+            bindings = <&Double_Click_Macro>;
+            key-positions = <19 20>;
         };
     };
 
@@ -336,6 +341,13 @@
             #binding-cells = <0>;
             bindings = <&mkp LCLK &mkp LCLK &mkp LCLK>;
             label = "TRIPPLE_CLICK_MACRO";
+        };
+
+        Double_Click_Macro: Double_Click_Macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp LCLK &mkp LCLK>;
+            label = "DOUBLE_CLICK_MACRO";
         };
     };
 
