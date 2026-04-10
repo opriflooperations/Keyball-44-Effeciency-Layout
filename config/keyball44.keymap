@@ -252,7 +252,7 @@
 
         Shift_Enter {
             bindings = <&kp LS(ENTER)>;
-            key-positions = <41 42>;
+            key-positions = <42 18>;
         };
 
         Ctrl_Enter {
