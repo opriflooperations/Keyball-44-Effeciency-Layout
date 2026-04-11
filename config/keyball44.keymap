@@ -22,7 +22,7 @@
 
 &mt {
     tapping-term-ms = <185>;
-    flavor = "hold-preferred";
+    flavor = "balanced";
     quick-tap-ms = <0>;
 };
 
