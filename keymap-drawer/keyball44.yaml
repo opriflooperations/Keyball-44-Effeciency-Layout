@@ -25,7 +25,7 @@ layers:
   - {t: I, h: SNIPE}
   - O
   - {t: ':', h: SCROLL}
-  - {t: PRINTSCREEN, h: FUN}
+  - {t: PRINTSCREEN, h: Sft+Gui+T}
   - Z
   - X
   - C
@@ -160,7 +160,7 @@ layers:
   - EP OFF
   - LOCK
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F9
   - F10
   - F11
