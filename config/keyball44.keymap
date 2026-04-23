@@ -82,7 +82,7 @@
 
         New_Tab {
             bindings = <&kp LC(T)>;
-            key-positions = <42 18>;
+            key-positions = <42 20>;
         };
 
         Reopen_Closed_Tab {
@@ -252,7 +252,7 @@
 
         Shift_Enter {
             bindings = <&kp LS(ENTER)>;
-            key-positions = <42 20>;
+            key-positions = <42 18>;
         };
 
         Ctrl_Enter {
