@@ -398,9 +398,9 @@ combos:
   k: '&ing_Text_Macro'
 - p: [13, 25]
   k: '&and_Text_Macro'
-- p: [18, 19]
-  k: '&Tripple_Click_Macro'
 - p: [19, 20]
+  k: '&Tripple_Click_Macro'
+- p: [19, 18]
   k: '&Double_Click_Macro'
 - p: [42, 18]
   k: {t: 'Sft+$$mdi:keyboard-return$$', type: enter}

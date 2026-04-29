@@ -755,12 +755,12 @@ rect.held, rect.combo.held {
 <text x="84" y="140" class="combo tap"><tspan style="font-size: 60%">&amp;and_Text…</tspan></text>
 </g>
 <g class="combo combopos-41">
-<rect rx="6" ry="6" x="546" y="88" width="28" height="26" class="combo"/>
-<text x="560" y="101" class="combo tap"><tspan style="font-size: 60%">&amp;Tripple_…</tspan></text>
+<rect rx="6" ry="6" x="602" y="77" width="28" height="26" class="combo"/>
+<text x="616" y="90" class="combo tap"><tspan style="font-size: 60%">&amp;Tripple_…</tspan></text>
 </g>
 <g class="combo combopos-42">
-<rect rx="6" ry="6" x="602" y="77" width="28" height="26" class="combo"/>
-<text x="616" y="90" class="combo tap"><tspan style="font-size: 60%">&amp;Double_C…</tspan></text>
+<rect rx="6" ry="6" x="546" y="88" width="28" height="26" class="combo"/>
+<text x="560" y="101" class="combo tap"><tspan style="font-size: 60%">&amp;Double_C…</tspan></text>
 </g>
 <g class="combo enter combopos-43">
 <path d="M544,180 l9,56" class="combo"/>
@@ -1226,12 +1226,12 @@ rect.held, rect.combo.held {
 <text x="84" y="140" class="combo tap"><tspan style="font-size: 60%">&amp;and_Text…</tspan></text>
 </g>
 <g class="combo combopos-41">
-<rect rx="6" ry="6" x="546" y="88" width="28" height="26" class="combo"/>
-<text x="560" y="101" class="combo tap"><tspan style="font-size: 60%">&amp;Tripple_…</tspan></text>
+<rect rx="6" ry="6" x="602" y="77" width="28" height="26" class="combo"/>
+<text x="616" y="90" class="combo tap"><tspan style="font-size: 60%">&amp;Tripple_…</tspan></text>
 </g>
 <g class="combo combopos-42">
-<rect rx="6" ry="6" x="602" y="77" width="28" height="26" class="combo"/>
-<text x="616" y="90" class="combo tap"><tspan style="font-size: 60%">&amp;Double_C…</tspan></text>
+<rect rx="6" ry="6" x="546" y="88" width="28" height="26" class="combo"/>
+<text x="560" y="101" class="combo tap"><tspan style="font-size: 60%">&amp;Double_C…</tspan></text>
 </g>
 <g class="combo enter combopos-43">
 <path d="M544,180 l9,56" class="combo"/>
@@ -1704,12 +1704,12 @@ rect.held, rect.combo.held {
 <text x="84" y="140" class="combo tap"><tspan style="font-size: 60%">&amp;and_Text…</tspan></text>
 </g>
 <g class="combo combopos-41">
-<rect rx="6" ry="6" x="546" y="88" width="28" height="26" class="combo"/>
-<text x="560" y="101" class="combo tap"><tspan style="font-size: 60%">&amp;Tripple_…</tspan></text>
+<rect rx="6" ry="6" x="602" y="77" width="28" height="26" class="combo"/>
+<text x="616" y="90" class="combo tap"><tspan style="font-size: 60%">&amp;Tripple_…</tspan></text>
 </g>
 <g class="combo combopos-42">
-<rect rx="6" ry="6" x="602" y="77" width="28" height="26" class="combo"/>
-<text x="616" y="90" class="combo tap"><tspan style="font-size: 60%">&amp;Double_C…</tspan></text>
+<rect rx="6" ry="6" x="546" y="88" width="28" height="26" class="combo"/>
+<text x="560" y="101" class="combo tap"><tspan style="font-size: 60%">&amp;Double_C…</tspan></text>
 </g>
 <g class="combo enter combopos-43">
 <path d="M544,180 l9,56" class="combo"/>
@@ -2183,12 +2183,12 @@ rect.held, rect.combo.held {
 <text x="84" y="140" class="combo tap"><tspan style="font-size: 60%">&amp;and_Text…</tspan></text>
 </g>
 <g class="combo combopos-41">
-<rect rx="6" ry="6" x="546" y="88" width="28" height="26" class="combo"/>
-<text x="560" y="101" class="combo tap"><tspan style="font-size: 60%">&amp;Tripple_…</tspan></text>
+<rect rx="6" ry="6" x="602" y="77" width="28" height="26" class="combo"/>
+<text x="616" y="90" class="combo tap"><tspan style="font-size: 60%">&amp;Tripple_…</tspan></text>
 </g>
 <g class="combo combopos-42">
-<rect rx="6" ry="6" x="602" y="77" width="28" height="26" class="combo"/>
-<text x="616" y="90" class="combo tap"><tspan style="font-size: 60%">&amp;Double_C…</tspan></text>
+<rect rx="6" ry="6" x="546" y="88" width="28" height="26" class="combo"/>
+<text x="560" y="101" class="combo tap"><tspan style="font-size: 60%">&amp;Double_C…</tspan></text>
 </g>
 <g class="combo enter combopos-43">
 <path d="M544,180 l9,56" class="combo"/>
@@ -2657,12 +2657,12 @@ rect.held, rect.combo.held {
 <text x="84" y="140" class="combo tap"><tspan style="font-size: 60%">&amp;and_Text…</tspan></text>
 </g>
 <g class="combo combopos-41">
-<rect rx="6" ry="6" x="546" y="88" width="28" height="26" class="combo"/>
-<text x="560" y="101" class="combo tap"><tspan style="font-size: 60%">&amp;Tripple_…</tspan></text>
+<rect rx="6" ry="6" x="602" y="77" width="28" height="26" class="combo"/>
+<text x="616" y="90" class="combo tap"><tspan style="font-size: 60%">&amp;Tripple_…</tspan></text>
 </g>
 <g class="combo combopos-42">
-<rect rx="6" ry="6" x="602" y="77" width="28" height="26" class="combo"/>
-<text x="616" y="90" class="combo tap"><tspan style="font-size: 60%">&amp;Double_C…</tspan></text>
+<rect rx="6" ry="6" x="546" y="88" width="28" height="26" class="combo"/>
+<text x="560" y="101" class="combo tap"><tspan style="font-size: 60%">&amp;Double_C…</tspan></text>
 </g>
 <g class="combo enter combopos-43">
 <path d="M544,180 l9,56" class="combo"/>
@@ -3129,12 +3129,12 @@ rect.held, rect.combo.held {
 <text x="84" y="140" class="combo tap"><tspan style="font-size: 60%">&amp;and_Text…</tspan></text>
 </g>
 <g class="combo combopos-41">
-<rect rx="6" ry="6" x="546" y="88" width="28" height="26" class="combo"/>
-<text x="560" y="101" class="combo tap"><tspan style="font-size: 60%">&amp;Tripple_…</tspan></text>
+<rect rx="6" ry="6" x="602" y="77" width="28" height="26" class="combo"/>
+<text x="616" y="90" class="combo tap"><tspan style="font-size: 60%">&amp;Tripple_…</tspan></text>
 </g>
 <g class="combo combopos-42">
-<rect rx="6" ry="6" x="602" y="77" width="28" height="26" class="combo"/>
-<text x="616" y="90" class="combo tap"><tspan style="font-size: 60%">&amp;Double_C…</tspan></text>
+<rect rx="6" ry="6" x="546" y="88" width="28" height="26" class="combo"/>
+<text x="560" y="101" class="combo tap"><tspan style="font-size: 60%">&amp;Double_C…</tspan></text>
 </g>
 <g class="combo enter combopos-43">
 <path d="M544,180 l9,56" class="combo"/>
@@ -3597,12 +3597,12 @@ rect.held, rect.combo.held {
 <text x="84" y="140" class="combo tap"><tspan style="font-size: 60%">&amp;and_Text…</tspan></text>
 </g>
 <g class="combo combopos-41">
-<rect rx="6" ry="6" x="546" y="88" width="28" height="26" class="combo"/>
-<text x="560" y="101" class="combo tap"><tspan style="font-size: 60%">&amp;Tripple_…</tspan></text>
+<rect rx="6" ry="6" x="602" y="77" width="28" height="26" class="combo"/>
+<text x="616" y="90" class="combo tap"><tspan style="font-size: 60%">&amp;Tripple_…</tspan></text>
 </g>
 <g class="combo combopos-42">
-<rect rx="6" ry="6" x="602" y="77" width="28" height="26" class="combo"/>
-<text x="616" y="90" class="combo tap"><tspan style="font-size: 60%">&amp;Double_C…</tspan></text>
+<rect rx="6" ry="6" x="546" y="88" width="28" height="26" class="combo"/>
+<text x="560" y="101" class="combo tap"><tspan style="font-size: 60%">&amp;Double_C…</tspan></text>
 </g>
 <g class="combo enter combopos-43">
 <path d="M544,180 l9,56" class="combo"/>
