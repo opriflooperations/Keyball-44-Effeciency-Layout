@@ -242,12 +242,12 @@
 
         Tripple_Click_Macro_RH {
             bindings = <&Tripple_Click_Macro>;
-            key-positions = <18 19>;
+            key-positions = <19 20>;
         };
 
         Doubble_Click_Macro_RH {
             bindings = <&Double_Click_Macro>;
-            key-positions = <19 20>;
+            key-positions = <19 18>;
         };
 
         Shift_Enter {
